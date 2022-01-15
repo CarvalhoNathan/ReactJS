@@ -1,3 +1,4 @@
+
 # Introdução ao ReactJS (Anotações sobre a aula) 📋
 
 Requisitos básicos:
@@ -15,14 +16,13 @@ Requisitos básicos:
 
 React é uma biblioteca e não um framework, a principal função é a criação da interface para o usuário.
 React é uma linguagem declarativa, assim como o React está preocupado apenas com o que é exibido na interface do usuário.
-React é baseado em componentes
-Pode ser utilizado em qualquer lugar.
+React é baseado em componentes e pode ser utilizado em qualquer lugar.
 
 ### - Histórias sobre o React:
 
 Criado em 2011 por Jordan Walke no Facebook;
 Baseado no XHP, um framework para criação de HTML no PHP;
-Utilizado no mural de notícias do Facebook;
+React é utilizado no mural de notícias do Facebook;
 
 2012 - Utilizado no Instragram
 2013 - Anúncio para liberação OpenSource na JSConf US
@@ -31,9 +31,9 @@ Utilizado no mural de notícias do Facebook;
 
 ## Aula 2 - Configuração
 
-React Create App
-React Scripts
-Task Runners e Bundler Sizers
+- React Create App
+- React Scripts
+- Task Runners e Bundler Sizers
 
 ## Aula 3 - O que é JSX
 
@@ -41,7 +41,7 @@ Task Runners e Bundler Sizers
 const element = <h1> Hello, world! </h1>;
 ```
 
-Nem HTML e nem uma string!
+JSX não é um arquivo HTML e nem uma string!
 
 React não separa as tecnologias colocando marcação em arquivos separados, e sim separa conceitos e mantém o código pouco acoplado chamando-os de componentes.
 
@@ -53,9 +53,9 @@ O browser não interpreta o JSX, para isso é necessário um transpilador para q
 
 ## Aula 4 - Renderização
 
-Renderização de Elementos;
-React DOM;
-Nós Raíz.
+- Renderização de Elementos;
+- React DOM;
+- Nós Raíz.
 
 React "pensa" em como a interface deve estar a cada momento ao invés de alterá-la com o tempo, o que faz ter ganho de performance e evita uma série de erros.
 
