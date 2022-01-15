@@ -1,8 +1,13 @@
-# Introdução ao ReactJS
+# Introdução ao ReactJS (Anotações sobre a aula) 📋
 
-## Objetivos das aulas:
+Requisitos básicos:
+- JavaScript
+- CSS
+- HTML
+- Editor de texto
+- NPM
 
-## 1. História e Conceitos
+## Aula 1 - História e Conceitos
 
 "Uma biblioteca JavaScript para criar interfaces de usuário" - ReactJS
 
@@ -24,13 +29,13 @@ Utilizado no mural de notícias do Facebook;
 2015 - React Native
 2015 - UWP (Universal Windows Platform)
 
-## 2. Configuração
+## Aula 2 - Configuração
 
 React Create App
 React Scripts
 Task Runners e Bundler Sizers
 
-## 3. O que é JSX
+## Aula 3 - O que é JSX
 
 ```js
 const element = <h1> Hello, world! </h1>;
@@ -46,20 +51,39 @@ Sintax Suggar para React.createElement
 
 O browser não interpreta o JSX, para isso é necessário um transpilador para que a aplicação possa entender o código. O mais utilizado é o Babel.
 
-## 4. Renderização
+## Aula 4 - Renderização
 
 Renderização de Elementos;
 React DOM;
 Nós Raíz.
 
-## 5. Componentes e Props
-## 6. Estado e Ciclo de Vida
-## 7. Ecossistema
+React "pensa" em como a interface deve estar a cada momento ao invés de alterá-la com o tempo, o que faz ter ganho de performance e evita uma série de erros.
 
-Requisitos básicos
+## Aula 5 - Componentes e Props
 
-- JavaScript
-- CSS
-- HTML
-- Editor de texto
-- NPM
+Função e Classe;
+Props;
+Composição de componentes;
+Extração de componentes;
+
+## Aula 6 - Estado e Ciclo de Vida
+
+- Inicialização
+- Montagem
+- Atualização
+- Desmontagem
+
+Nenhum componente pai ou filho devem saber se outro componente possui estado ou não.
+
+O estado é apenas local ao componente e caso seja necessário enviar algum atributo para outro então é feito via props.
+
+## Aula 7 - Ecossistema
+
+- React Router
+- Redux
+- Material UI
+- Ant-Design
+- Storybook
+- Gatsby
+- Jest
+- React i18n Next
