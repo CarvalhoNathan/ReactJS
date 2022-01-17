@@ -5,7 +5,7 @@ Requisitos básicos:
 - JavaScript
 - CSS
 - HTML
-- Editor de texto
+- Editor de texto (Ex: VS Code)
 - NPM
 
 ## Aula 1 - História e Conceitos
@@ -16,11 +16,11 @@ Requisitos básicos:
 
 React é uma biblioteca e não um framework, a principal função é a criação da interface para o usuário.
 React é uma linguagem declarativa, assim como o React está preocupado apenas com o que é exibido na interface do usuário.
-React é baseado em componentes e pode ser utilizado em qualquer lugar.
+React é baseado em componentes e pode ser utilizado em qualquer lugar (Computador, celular, tablet e etc).
 
 ### - Histórias sobre o React:
 
-Criado em 2011 por Jordan Walke no Facebook;
+React foi criado em 2011 por Jordan Walke no Facebook;
 Baseado no XHP, um framework para criação de HTML no PHP;
 React é utilizado no mural de notícias do Facebook;
 
