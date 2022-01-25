@@ -1,4 +1,3 @@
-
 # Introdução ao ReactJS (Anotações sobre a aula) 📋
 
 Requisitos básicos:
