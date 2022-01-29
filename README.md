@@ -1,4 +1,9 @@
-# Introdução ao ReactJS (Anotações sobre a aula) 📋
+# Introdução ao ReactJS (Anotações sobre as aulas) 📋
+
+## Anotações feita durante as aulas do curso:
+
+- Introdução ao ReactJS
+- [Desenvolvimento de aplicações para internet com ReactJS](https://github.com/CarvalhoNathan/ReactJS/tree/main/WebApplications)
 
 Requisitos básicos:
 - JavaScript
@@ -52,25 +57,25 @@ O browser não interpreta o JSX, para isso é necessário um transpilador para q
 
 ## Aula 4 - Renderização
 
-- Renderização de Elementos;
-- React DOM;
-- Nós Raíz.
+- Renderização de Elementos
+- React DOM
+- Nós Raíz
 
 React "pensa" em como a interface deve estar a cada momento ao invés de alterá-la com o tempo, o que faz ter ganho de performance e evita uma série de erros.
 
 ## Aula 5 - Componentes e Props
 
-Função e Classe;
-Props;
-Composição de componentes;
-Extração de componentes;
+- Função e Classe
+- Props
+- Composição de componentes
+- Extração de componentes
 
 ## Aula 6 - Estado e Ciclo de Vida
 
-- Inicialização
-- Montagem
-- Atualização
-- Desmontagem
+1️⃣ Inicialização <br>
+2️⃣ Montagem <br>
+3️⃣ Atualização <br>
+4️⃣ Desmontagem
 
 Nenhum componente pai ou filho devem saber se outro componente possui estado ou não.
 
