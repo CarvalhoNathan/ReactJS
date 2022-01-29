@@ -1,6 +1,6 @@
 # Desenvolvimento de aplicações para internet com ReactJS
 
-Requisitos básicos
+### Requisitos básicos 📋
 
 - Ter feito o curso "Introdução ao ReactJS" e "Programação para internet com HTML5 e CSS3"
 - Editor de texto
@@ -77,5 +77,27 @@ function HelloWorldComponents() {
 - Performance
 - Injeção automática de prefixos vendor
 
-Aula 2 - Stateful vs. stateless
+## Aula 2 - Stateful vs. stateless
+
+- Stateful: usa estados
+- Stateless: não usa estados
+
+### Stateful:
+
+- Possui gerenciamento de estados no componenente.
+- Construídos usando classes em JS
+
+### Stateless:
+
+- Não possui gerenciamento de estados no componente
+- Construídos usando funções em JS
+
+### Stateful vs stateless
+
+✔ A nomenclatura foi atualizada
+ - Class Components
+ - Function Components
+
+✔ Com hooks, estados são manipuláveis em function components!
+
 Aula 3 - Formulários
