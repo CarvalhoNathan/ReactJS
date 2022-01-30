@@ -100,4 +100,33 @@ function HelloWorldComponents() {
 
 ✔ Com hooks, estados são manipuláveis em function components!
 
-Aula 3 - Formulários
+## Aula 3 - Formulários
+
+### Formulários mantêm um estado interno
+
+#### Form de exemplo sem react:
+```js
+<form>
+ <label>
+  Nome:
+  <input type="text" name="nome" />
+ </label>
+ <input type="submit" value="Enviar" />
+</form>
+```
+
+Em HTML, `<input>`, `<textarea>` e `<select>` têm um estado interno. <br>
+Em React, podemos controlar o estado usando **state** e **setState**.
+
+#### Componente controlado
+
+- Tanto select, input ou textarea aceitam um atributo **value**
+- Podemos mudar esse valor usando o atributo **onChange**
+
+#### Componente não-controlado
+
+A tag input é **read-only**
+
+#### Bibliotecas
+- Formik
+- Redux-forms
