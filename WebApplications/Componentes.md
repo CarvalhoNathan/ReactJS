@@ -79,15 +79,12 @@ function HelloWorldComponents() {
 
 ## Aula 2 - Stateful vs. stateless
 
-- Stateful: usa estados
-- Stateless: não usa estados
-
-### Stateful:
+### Stateful (usa estados):
 
 - Possui gerenciamento de estados no componenente.
 - Construídos usando classes em JS
 
-### Stateless:
+### Stateless (não usa estados):
 
 - Não possui gerenciamento de estados no componente
 - Construídos usando funções em JS
