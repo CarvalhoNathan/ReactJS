@@ -38,6 +38,11 @@ Flux é um padrão de projeto para tráfego de dados de maneira unidirecional
 
 ## Aula 3 - Redux + React
 
+Instalando o Redux
+```js
+npm install react-redux
+npm install --save-dev redux-devtools
+```
 ### Requisitos básicos 📋
 
 - Ter feito a aula 1
