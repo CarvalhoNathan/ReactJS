@@ -25,6 +25,17 @@ Flux é um padrão de projeto para tráfego de dados de maneira unidirecional
 - "Flux libraries are like glasses: you'll know when you need them." - Dan Abramov
 
 ## Aula 2 - O que é Redux?
+
+- Criado por Dan Abramov e Andrew Clark em 2015
+- Redux é uma implementação de Flux
+- Ambos possuem algumas diferenças
+
+3 princípios:
+
+1. Singles source of truth: Uma única store
+2. State é read-only
+3. Mudanças são feitas com pure functions
+
 ## Aula 3 - Redux + React
 
 ### Requisitos básicos 📋
