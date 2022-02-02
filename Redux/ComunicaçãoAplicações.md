@@ -34,6 +34,28 @@
 yarn add axios
 ```
 ## Aula 2 - Imutabilidade e Redux
+
+### Imutabilidade e Redux
+
+- Uma vez criada, uma coleção não pode ser alterada.
+- Novas coleções podem ser criadas a partir de uma coleção anterior e uma mutação (setter) como um conjunto.
+- Novas coleções são criadas usando o máximo possível da estrutura original, reduzindo a cópia e aumentando a performance.
+
+### Benefícios:
+
+- Performance
+- Programação mais simples
+- Debugging mais simples (detecção de mudanças)
+
+Se você quer performance em React, use dados imutáveis. <br>
+Você consegue usando o shouldComponentUpdate ou React.PureComponent.
+
+### Imutabilidade é pré requisito no Redux
+
+- Redux e React-Redux utilizam comparações rasas
+- Manipulação de dados mais segura
+- Time-travel debugging
+
 ## Aula 3 - Redux + Rest
 
 ### Requisitos básisos 📋
