@@ -37,6 +37,15 @@
 - Chai
 
 ### Aula 2 - Debugging
+
+Depuração é o processo de encontrar e reduzir defeitos em um software
+
+### Ferramentas:
+
+- Chrome Devtools
+- Redux Devtools
+- React Devtools
+
 ### Aula 3 - Tratamento de erros
 
 ### Requisitos básicos 📋
