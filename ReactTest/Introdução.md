@@ -48,6 +48,9 @@ Depuração é o processo de encontrar e reduzir defeitos em um software
 
 ### Aula 3 - Tratamento de erros
 
+- Resiliência de SW
+- Segurança
+
 ### Requisitos básicos 📋
 
 - Ter feito as aulas 1, 2 e 3
