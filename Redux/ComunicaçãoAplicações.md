@@ -58,6 +58,15 @@ Você consegue usando o shouldComponentUpdate ou React.PureComponent.
 
 ## Aula 3 - Redux + Rest
 
+- Suponha um sistema de notificações ou um sistema de logging
+- Você precisa manter a sincronia, independente da tela onde estiver
+- Uma maneira de resolver fácil seria armazenar os dados do serviço no Redux
+
+### Redux Middlewares
+
+- Provê uma camada entre o disparo de uma ação e o momento que ela atinge o reducer.
+- Utilizados para uma variedade funções, entre elas chamadas de APIs de serviço.
+
 ### Requisitos básisos 📋
 
 - Ter feito as aulas 1 e 2
