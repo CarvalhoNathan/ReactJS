@@ -9,7 +9,7 @@
   - Teste escrito antes da funcionalidade
 - Não descarta a presença de um tester
 
-### Libs:
+### TDD Libs:
 
 - Jest
 - React-testing-Library
@@ -26,12 +26,12 @@
 - Teste de especificação
   - Une especificação, teste automatizado e premissa de teste (documento de teste)
 
-### BDD e sintaxe Gherkin
+### BDD e Sintaxe Gherkin
 
 - Sintaxe de steps para definir cenários
 - Descreve cada funcionalidade por feature (caso de uso)
 
-### Libs:
+### BDD Libs:
 
 - Jest-cucumber
 - Chai
