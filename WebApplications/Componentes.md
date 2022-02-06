@@ -4,11 +4,11 @@
 
 - Ter feito o curso "Introdução ao ReactJS" e "Programação para internet com HTML5 e CSS3"
 - Editor de texto
-- Ter o Node.js e React corretamente
+- Ter o Node.js e ReactJS corretamente
 
-## Aula 1 - CSS componentes e elementos
+## Aula 1 - CSS componentes e elementos em ReactJS
 
-### Maneiras de estilização
+### Maneiras de estilização:
 
 ## 1. Inline
 ```js
@@ -49,7 +49,7 @@ function HelloWorldComponent() {
 }
 ```
 
-Em JSX, define-se classes pelo atributo className, sendo a maneira mais prática e direta. ✔
+Em ``JSX``, define-se classes pelo atributo className, sendo a maneira mais prática e direta. ✔
 
 #### Contras: ❌
 - Difícil manuntenção
