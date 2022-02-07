@@ -1,11 +1,12 @@
-Trabalhando com Componentes em React
+# Trabalhando com Componentes em React
 
-Requisitos básicos
+### Requisitos básicos 📋
+
 - Conhecimento em HTML, CSS e JS
 - Instalar o Node.js
-- Editor de códigos (preferencialmente o Vs Code)
+- Editor de texto (preferencialmente o Vs Code)
 
-Objetivos da aula
+### Objetivos da aula
 
 - Inicializar um projeto React
 - Criar um componente
