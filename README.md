@@ -94,3 +94,8 @@ O estado é apenas local ao componente e caso seja necessário enviar algum atri
 - Gatsby
 - Jest
 - React i18n Next
+
+<p align="center">
+  README by Nathan Carvalho 🚀</b>
+  <br>
+</p>
