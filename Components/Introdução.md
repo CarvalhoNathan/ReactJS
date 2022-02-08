@@ -8,6 +8,6 @@
 
 ### Objetivos da aula
 
-- Inicializar um projeto React
+- Inicializar um projeto [React](https://github.com/CarvalhoNathan/ReactJS/tree/main/Components/react-dio)
 - Criar um componente
-- Entender o useState
+- Entender o `useState`
