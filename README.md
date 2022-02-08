@@ -5,6 +5,7 @@
 - Introdução ao ReactJS
 - [Desenvolvimento de aplicações para internet com ReactJS](https://github.com/CarvalhoNathan/ReactJS/tree/main/WebApplications)
 - [Introdução ao Redux](https://github.com/CarvalhoNathan/ReactJS/tree/main/Redux)
+- [Conceitos aplicados a qualidade de código e automação de testes](https://github.com/CarvalhoNathan/ReactJS/tree/main/ReactTest)
 
 Requisitos básicos:
 - JavaScript
