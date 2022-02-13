@@ -14,7 +14,7 @@
 ## Configuração inicial
 
 - Criar uma aplicação React ``(npx create-react-app aula-hooks)`` ✔
-- Organizar os arquivos
+- Organizar os arquivos ✔
 
 ## Criando componentes realmente reativos com useState
 
