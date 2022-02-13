@@ -1,3 +1,5 @@
+// componente sem utilizar estados
+
 function Counter(){
   let quantity = 10;
   
