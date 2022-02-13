@@ -4,17 +4,16 @@
 
 ### Repositórios dos cursos ⬇
 
-- [Introdução ao ReactJS](https://github.com/CarvalhoNathan/ReactJS#readme)
-- [Desenvolvimento de aplicações para internet com ReactJS](https://github.com/CarvalhoNathan/ReactJS/tree/main/WebApplications)
-- [Introdução ao Redux](https://github.com/CarvalhoNathan/ReactJS/tree/main/Redux)
-- [Conceitos aplicados a qualidade de código e automação de testes](https://github.com/CarvalhoNathan/ReactJS/tree/main/ReactTest)
+- [1 - Introdução ao ReactJS](https://github.com/CarvalhoNathan/ReactJS#readme)
+- [2 - Desenvolvimento de aplicações para internet com ReactJS](https://github.com/CarvalhoNathan/ReactJS/tree/main/WebApplications)
+- [3 - Introdução ao Redux](https://github.com/CarvalhoNathan/ReactJS/tree/main/Redux)
+- [4 - Conceitos aplicados a qualidade de código e automação de testes](https://github.com/CarvalhoNathan/ReactJS/tree/main/ReactTest)
+- [5 - Trabalhando com States & Effects no ReactJs](https://github.com/CarvalhoNathan/ReactJS/tree/main/Hooks)
 
 ### Requisitos basicos 📋
-- JavaScript
-- CSS
-- HTML
-- Editor de texto
-- Ter o Node.js e ReactJS corretamente
+- Conhecimento em HTML, CSS e JavaScript
+- Vs code instalado
+- Ter o Node e NPM instalados
 
 ## Aula 1️⃣ - História e Conceitos
 
