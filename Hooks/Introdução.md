@@ -1,5 +1,7 @@
 # Trabalhando com States & Effects no ReactJs
 
+###  Projeto feito durante a aula ➡ [aula-hooks](https://github.com/CarvalhoNathan/ReactJS/tree/main/Hooks/aula-hooks)
+
 ## Objetivos
 
 - Entender como funciona os React Hooks useState e useEffects
@@ -13,15 +15,15 @@
 
 ## Configuração inicial
 
-- Criar uma aplicação React ``(npx create-react-app aula-hooks)`` ✔
-- Organizar os arquivos ✔
+- Criar uma aplicação React ``(npx create-react-app aula-hooks)``
+- Organizar os arquivos
 
-## Criando componentes realmente reativos com useState
+## Criando componentes realmente reativos com ``useState``
 
-- Criar um componente normal sem usar estador
+- Criar um componente normal sem usar estados
 - Criar um componente com memoria (React)
 
 ## Usando o poder dos efeitos
 
 - Entender como funciona um efeito 
-- Ver uma situação de uso de effect
+- Ver uma situação com o uso de ``(useEffect)``
