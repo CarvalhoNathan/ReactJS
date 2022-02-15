@@ -21,7 +21,7 @@
 ## Criando componentes realmente reativos com ``useState``
 
 - Criar um componente normal sem usar estados
-- Criar um componente com memoria (React)
+- Criar um componente com memória do próprio React
 
 ## Usando o poder dos efeitos
 
