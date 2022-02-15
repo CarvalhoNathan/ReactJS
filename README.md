@@ -9,6 +9,7 @@
 - [3 - Introdução ao Redux](https://github.com/CarvalhoNathan/ReactJS/tree/main/Redux)
 - [4 - Conceitos aplicados a qualidade de código e automação de testes](https://github.com/CarvalhoNathan/ReactJS/tree/main/ReactTest)
 - [5 - Trabalhando com States & Effects no ReactJs](https://github.com/CarvalhoNathan/ReactJS/tree/main/Hooks)
+- [6 - Introdução a APIs e métodos HTTP](https://github.com/CarvalhoNathan/ReactJS/tree/main/APIs)
 
 ### Requisitos basicos 📋
 - Conhecimento em HTML, CSS e JavaScript
