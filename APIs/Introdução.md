@@ -11,6 +11,16 @@
 - Facilita muito a integração
 - Existem várias metodologias ( ou arquiteturas ), como por exemplo: ``SOA, Rest, uso por meio de SDK``
 
+## Rest / Restful
+**Rest:** Metodologia / Arquitetura <br>
+**Restful:** API que faz uso do Rest
+
+### Características:
+- Trafego dos dados por JSON ( os antigos ainda usam xml )
+- Padronização de endpoint’s
+- Uso de HTTP Methods ( Get, Post, Put, Delete )
+- Fácil entendimento ao iniciar uma integração
+
 ## Http Methods:
 Get: ``Sempre obtém os dados`` <br>
 Post: ``Cria um novo registro ou Recurso`` <br>
@@ -45,6 +55,3 @@ Delete: ``/api/dev/user?id=2`` <br>
 504 = Gateway Timeout <br>
 
 ### Referência - [www.httpstatuses.com](www.httpstatuses.com)
-
-## Rest / Restful
-## Lab: Postman
