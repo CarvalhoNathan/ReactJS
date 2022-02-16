@@ -1,10 +1,10 @@
-# Instalando e configurando seu ambiente Node.JS
+# Anotações curso - Instalando e configurando seu ambiente Node.JS
 
-### Objetivos das aulas:
+### 📌 Objetivos das aulas:
 
 - Conhecer o que é o Node.JS
-- Instalar o Node.JS
-- Ter Vs code instalado
+- Instalar o Node.JS ( [Download do Node](https://nodejs.org/en/) )
+- Instalar Visual Studio Code ( [Download do Vs code](https://code.visualstudio.com/download) )
 
 ## O que NÃO é o Node.JS? ❌
 
