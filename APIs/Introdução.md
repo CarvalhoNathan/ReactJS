@@ -1,12 +1,12 @@
 # Introdução a APIs e métodos HTTP 📋
 
-## Objetivos
+## Objetivo:
 
 - Entender o você precisa saber para construir API's verdadeiramente Restful
 
-## O que é API
+## O que é API?
 
-- Application Program Interface
+- Application Program Interface (API)
 - Pense em API como a camada que esconde as regras e possibilita uma comunicação externa.
 - Facilita muito a integração
 - Existem várias metodologias ( ou arquiteturas ), como por exemplo: ``SOA, Rest, uso por meio de SDK``
@@ -55,3 +55,8 @@ Delete: ``/api/dev/user?id=2`` <br>
 504 = Gateway Timeout <br>
 
 ### Referência - [www.httpstatuses.com](www.httpstatuses.com)
+
+<p align="center">
+  README by Nathan Carvalho 🚀</b>
+  <br>
+</p>
