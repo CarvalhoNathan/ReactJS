@@ -1,6 +1,8 @@
 # Introdução a APIs e métodos HTTP 📋
 
-## Objetivo:
+## Anotações feita durante as aulas do cursos:
+
+### Objetivo:
 
 - Entender o você precisa saber para construir API's verdadeiramente Restful
 
