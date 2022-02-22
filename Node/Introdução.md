@@ -1,5 +1,7 @@
 # Anotações curso - Instalando e configurando seu ambiente Node.JS
 
+## Anotações feita durante as aulas do cursos:
+
 ### 📌 Objetivos das aulas:
 
 - Conhecer o que é o Node.JS
@@ -22,3 +24,8 @@
 
 - NPM (Node package menager), o gerenciador de pacotes do Node
 - Consegue puxar todos os dados, através de apenas de uma linha de comando
+
+<p align="center">
+  README by Nathan Carvalho 🚀</b>
+  <br>
+</p>

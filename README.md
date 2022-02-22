@@ -15,7 +15,7 @@
 ### Requisitos basicos 📋
 - Conhecimento em HTML, CSS e JavaScript
 - Vs code instalado
-- Ter o Node e NPM instalados
+- Node e NPM instalados corretamente
 
 ## Aula 1️⃣ - História e Conceitos
 

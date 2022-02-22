@@ -1,8 +1,10 @@
 # Trabalhando com States & Effects no ReactJs
 
+## Anotações feita durante as aulas do cursos:
+
 ###  Projeto feito durante a aula ➡ [aula-hooks](https://github.com/CarvalhoNathan/ReactJS/tree/main/Hooks/aula-hooks)
 
-## Objetivos
+### Objetivos
 
 - Entender como funciona os React Hooks useState e useEffects
 
@@ -27,3 +29,8 @@
 
 - Entender como funciona um efeito 
 - Ver uma situação com o uso de ``(useEffect)``
+
+<p align="center">
+  README by Nathan Carvalho 🚀</b>
+  <br>
+</p>
