@@ -1,6 +1,6 @@
 import { NextFunction, Response, Request, Router } from "express";
 import { StatusCodes } from "http-status-codes";
-import JWT from 'jsonwebtoken';
+import JWT, { SignOptions } from 'jsonwebtoken';
 import basicAuthenticationMiddleware from "../middlewares/basic-authentication.middleware";
 import jwtAuthenticationMiddleware from "../middlewares/jwt-authentication.middleware";
 import bearerAuthenticationMiddleware from "../middlewares/jwt-authentication.middleware";
@@ -17,7 +17,7 @@ authorizationRoute.post('/token', basicAuthenticationMiddleware, async (req: Req
     }
 
     const jwtPayload = { username: user.username };
-    const jwtOptions = { subject: user?.uuid };
+    const jwtOptions: SignOptions = { subject: user?.uuid, expiresIn: '15m' };
     const secretKey = 'my_secret_key';
 
     const jwt = JWT.sign(jwtPayload, secretKey, jwtOptions);
