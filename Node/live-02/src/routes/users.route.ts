@@ -1,6 +1,5 @@
 import { Router, Request, Response, NextFunction } from "express";
 import { StatusCodes} from 'http-status-codes';
-import { DatabaseError } from "pg";
 import userRepository from '../repostirories/user.repository';
  
 const usersRoute = Router();
