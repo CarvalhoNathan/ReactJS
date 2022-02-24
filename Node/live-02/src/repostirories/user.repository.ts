@@ -1,13 +1,10 @@
-import { stringify } from 'querystring';
 import db from '../db';
 import User from '../models/user.model';
-
-db
+import DatabaseError from '../models/errors/database.error.model';
 
 class UserRepository {
 
   // FindAll
-
   async findAllUsers(): Promise<User[]> {
     const query = `
       SELECT uuid, username
@@ -19,22 +16,26 @@ class UserRepository {
   }
 
   // FindById
-
   async findById(uuid: string): Promise<User> {
-    const query = `
+    try {
+      const query = `
       SELECT uuid, username
       FROM application_user
       WHERE uuid = $1
-    `;
+      `;
 
-    const values = [uuid];
-    
-    const { rows } = await db.query<User>(query, values);
-    const [ user ] = rows;
+      const values = [uuid];
+      
+      const { rows } = await db.query<User>(query, values);
+      const [ user ] = rows;
 
-    return user;
+      return user;
+    } catch (error) {
+      throw new DatabaseError('Erro na consulta por ID', error);
+    }
   }
 
+  // Create user
   async create(user: User): Promise<string> {
     const script = `
       INSERT INTO application_user (
@@ -52,6 +53,7 @@ class UserRepository {
     return newUser.uuid;
   }
 
+  // Update user
   async update(user: User): Promise<void> {
     const script = `
       UPDATE application_user
@@ -65,6 +67,7 @@ class UserRepository {
     await db.query(script, values);
   }
 
+  // Delete user
   async remove(uuid: string): Promise<void> {
     const cript = `
       DELETE
