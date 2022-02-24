@@ -1,45 +1,26 @@
 import { NextFunction, Response, Request, Router } from "express";
-import ForbiddenError from "../models/errors/forbidden.error.model";
-import userRepository from "../repostirories/user.repository";
+import { StatusCodes } from "http-status-codes";
 import JWT from 'jsonwebtoken';
+import basicAuthenticationMiddleware from "../middlewares/basic-authentication.middleware";
+import ForbiddenError from "../models/errors/forbidden.error.model";
 
 const authorizationRouter = Router();
 
-authorizationRouter.post('/token', async (req: Request, res: Response, next: NextFunction,) => {
+authorizationRouter.post('/token', basicAuthenticationMiddleware, async (req: Request, res: Response, next: NextFunction,) => {
   try {
-    const authorizationHeader = req.headers['authorization'];
+    const user = req.user;
 
-    if (!authorizationHeader) {
-      throw new ForbiddenError('Credenciais não informadas');
+    if (!user) {
+      throw new ForbiddenError('Usuário não informado!');
     }
 
-    // Basic YWRtaW46QURNSU4
+    const jwtPayload = { username: user.username };
+    const jwtOptions = { subject: user?.uuid };
+    const secretKey = 'my_secret_key';
 
-    const [authenticationType, token] = authorizationHeader.split(' ');
-
-    if(authenticationType !== 'Basic' || !token) {
-      throw new ForbiddenError('Tipo de authenticação inválido');
-    }
-
-    const tokenContent = Buffer.from(token, 'base64').toString('utf-8')
+    const jwt = JWT.sign(jwtPayload, secretKey, jwtOptions);
     
-    const [username, password] = tokenContent.split(':');
-
-    if(!username || !password) {
-      throw new ForbiddenError('Credenciais não preenchidas');
-    }
-    
-    const user = await userRepository.findByUsernameAndPassword(username, password);
-    console.log(user);
-
-    // "iss" O domínio da aplicação geradora do token
-    // "sub" É o assunto do token, mas é muito utilizado para guarda o ID do usuário
-    // "aud" Define quem pode usar o token
-    // "exp" Data para expiração do token
-    // "nbf" Define uma data para qual o token não pode ser aceito antes dela
-    // "iat" Data de criação do token
-    // "jti" O id do token
-
+    res.status(StatusCodes.OK).json({ token: jwt });
   } catch (error) {
    next(error); 
   }

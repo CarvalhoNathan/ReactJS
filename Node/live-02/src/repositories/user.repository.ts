@@ -35,11 +35,13 @@ class UserRepository {
     }
   }
 
+  // Login username and password
+
   async findByUsernameAndPassword(username: string, password: string): Promise<User | null> {
     try {
       const query = `
         SELECT uuid, username
-        FROM, application_user
+        FROM application_user
         WHERE username = $1
         AND password = crypt($2, 'my_salt') 
       `;
